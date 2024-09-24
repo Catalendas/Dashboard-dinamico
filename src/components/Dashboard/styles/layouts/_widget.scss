@@ -1,7 +1,23 @@
+
 .widget {
   margin: .5rem;
   border-radius: 3px;
   padding: 1rem;
+
+  &--full {
+    flex-basis: 100%;
+    background-color: #76D7C4;
+  }
+
+  &--half {
+    flex-basis: 43%;
+    background-color: #85C1E9;
+  }
+
+  &--quarter {
+    flex-basis: 20%;
+    background-color: #D2B4DE;
+  }
 
   .widget__title {
     margin-top: 0;
@@ -17,5 +33,13 @@
     font-weight: 300;
     font-style: italic;
     opacity: .75;
+  }
+
+  .widget__chart {
+    font-size: .8rem;
+
+    .chart__bar {
+      border-radius: 15px;
+    }
   }
 }
