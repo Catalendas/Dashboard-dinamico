@@ -1,12 +1,10 @@
 ### Dashboard dinamico
 
-Nesse projeto o foco não foi a estilização, mas sim a aplicação dos conceitos de solid em um component, nesse caso o componente era um dashboard, um dos requisitos é que ele deveria ser dinamico, podendo tanto conter um grafico de barra com também listagens e contagens como no exemplo abaixo.
+Neste projeto, o foco não foi a estilização, mas sim a aplicação dos princípios SOLID em um componente. O componente em questão era um dashboard, e um dos requisitos era que ele fosse dinâmico, podendo exibir tanto um gráfico de barras quanto listagens e contagens, como no exemplo abaixo.
 
-Tudo isso deveria ser responsabilidade de um unico componente por isso foi feita uma separação de responsabilidades, no caso foram chamados de templates, esses templates chamavam um tipo de grafico diferente entre eles.
+Toda essa responsabilidade deveria ser gerida por um único componente, por isso houve a separação das responsabilidades. Nesse caso, foram utilizados templates, que chamavam diferentes tipos de gráficos.
 
-A definição do tipo do grafico era armazenada em um mock dos dados que seriam exibidos, cada conjunto desses dados recebem um objeto onde contem um cahave de configuração com tamanho de tipo do grafico.
-
-imagem
+A definição do tipo de gráfico era armazenada em um mock dos dados a serem exibidos. Cada conjunto de dados recebia um objeto contendo uma chave de configuração com o tamanho e o tipo do gráfico.
 
 ### Como executar o projeto?
 
