@@ -6,6 +6,8 @@ Toda essa responsabilidade deveria ser gerida por um único componente, por isso
 
 A definição do tipo de gráfico era armazenada em um mock dos dados a serem exibidos. Cada conjunto de dados recebia um objeto contendo uma chave de configuração com o tamanho e o tipo do gráfico.
 
+![image](https://github.com/user-attachments/assets/09148dcb-a45a-4d1c-bcef-5483b7727e8a)
+
 ### Como executar o projeto?
 
 Siga os passos abaixo para a instalação do projeto em sua máquina:
